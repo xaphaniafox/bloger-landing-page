@@ -1,0 +1,23 @@
+body, * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.page {
+  max-width: 1440px;
+}
+.header {
+  background-image: linear-gradient(to right, hsl(13, 100%, 72%) , hsl(353, 100%, 62%));
+  width: inherit;
+  height: 600px;
+  border-radius: 0 0 0 100px;
+  overflow: hidden;
+}
+.header--image {
+  width: 2800px;
+  height: auto;
+  position: relative;
+  left: -400px;
+  top: -1100px;
+}
